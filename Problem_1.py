@@ -12,11 +12,11 @@ def power_func(x):
 
 # While loop to find the appropriate values of x so that power_func(x) is >= input_num
 x = 0
-while power_func(x) <= input_num:
+while power_func(x) < input_num:
     x += 1
 
 # Printing the result of the findings
-print("The next power of two that is equal to or greater than your input number is " + str(power_func(x)))
+print("The next power of two that is equal to or greater than your input number is " + str(power_func(x)) + ".")
 
 
 
