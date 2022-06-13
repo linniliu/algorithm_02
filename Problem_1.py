@@ -1,4 +1,4 @@
-# Algorithm 1 - Linda Liu
+# Algorithm 2 - Linda Liu
 
 # Problem 1
 

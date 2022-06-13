@@ -1,4 +1,4 @@
-# Algorithm 1 - Linda Liu
+# Algorithm 2 - Linda Liu
 
 # Problem 2
 
@@ -13,7 +13,6 @@ str_02 = input()
 # Functions to get the length of the strings
 def length_01(a):
     return int(len(a))
-
 def length_02(b):
     return int(len(b))
 
@@ -30,7 +29,7 @@ while sub_str != str_01:
     sub_str = (range_02(c))
     c += 1
     if sub_str == str_01:
-        print("Match found.")
+        print("Match found!")
         break
     if c == length_02(str_02):
         print("No match found.")
